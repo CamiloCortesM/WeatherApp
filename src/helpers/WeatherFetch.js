@@ -5,8 +5,8 @@ export const WeatherFetch = async(ct) => {
     const climate={
         temps: ConCentigrade(temp.temp),
         name:name,
-        contry:sys.country,
-        weather:weather
+        country:sys.country,
+        weather:weather[0]
     }
 
     return climate;
