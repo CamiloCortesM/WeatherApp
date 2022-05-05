@@ -7,17 +7,14 @@ const WorldWeather = () => {
 
   const handleChange = (e) => {
     const resp = e.target.value;
-    console.log(resp);
     setInput(resp);
   };
 
   const handleSubmit = (e) => {
-    console.log("hola");
     e.preventDefault();
     if (input.trim().length > 2) {
       setCity(input);
-      setInput('');
-      console.log(city);
+      setInput("");
     }
   };
 
