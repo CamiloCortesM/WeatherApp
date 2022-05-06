@@ -63,6 +63,26 @@ label {
 }
 
 .Weather-body{
-  background-color: #ffffff;
-  margin: 10px auto;
+  margin: 25px auto;
+}
+
+.content{
+  display:flex;
+  margin: 0 auto;
+  width: 100%;
+ justify-content: space-around;
+ background-color: #dbe1eb;
+}
+
+img{
+  width: 8%;
+}
+
+.content h2{
+  margin: auto;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.countryData{
+  color: gray;
 }
