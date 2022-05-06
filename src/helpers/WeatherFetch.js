@@ -14,5 +14,5 @@ export const WeatherFetch = async(ct) => {
 
 
 const ConCentigrade = (data)=>{
-    return data-273.15
+    return Math.round((data-273.15));
 }
